@@ -7,8 +7,8 @@ program
   .command('add <taskName>')
   .description('add a task')
   .action((...cmdArgs) => {
-    const taskname = cmdArgs[1].args.join(' ')
-    api.add(taskname)
+    const taskName = cmdArgs[1].args.join(' ')
+    return api.add(taskName)
   });
 
 program.parse(process.argv);
