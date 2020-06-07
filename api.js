@@ -8,5 +8,8 @@ module.exports = {
       done: false
     })
     await db.write(taskList)
+  },
+  clear: async () => {
+    await db.write([])
   }
 }
