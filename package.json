@@ -4,6 +4,7 @@
   "main": "cli.js",
   "license": "MIT",
   "dependencies": {
-    "commander": "^5.1.0"
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0"
   }
 }
