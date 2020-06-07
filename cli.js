@@ -13,9 +13,16 @@ program
 
 program
   .command('clear')
-  .description('Clear all task')
+  .description('Clear all tasks')
   .action(() => {
     api.clear().then(() => console.log('清除成功'))
+  });
+
+program
+  .command('list')
+  .description('List all tasks')
+  .action(() => {
+    return api.list()
   });
 
 program.parse(process.argv);
