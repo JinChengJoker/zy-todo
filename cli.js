@@ -1,5 +1,5 @@
 const { Command } = require('commander')
-const api = require('./api.js')
+const api = require('./index.js')
 
 const program = new Command()
 
