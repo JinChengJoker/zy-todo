@@ -8,6 +8,9 @@
   "files": [
     "*.js"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "dependencies": {
     "commander": "^5.1.0",
